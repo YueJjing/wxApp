@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/dianpu/dianpu",
+    "pages/index/index",
+    "pages/shangjia/shangjia",
+    "pages/shuju/shuju",
+    "pages/start/start",
+    "pages/chuangke/chuangke",
+    "pages/logs/logs"
+  
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#039ddd",
+    "navigationBarTitleText": "创客中心",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#039ddd",
+    "borderStyle": "#000",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "创客中心",
+        "iconPath": "assets/tabbar/chuangke.png",
+        "selectedIconPath": "assets/tabbar/chuangke_blue.png"
+      },
+      {
+        "pagePath": "pages/shuju/shuju",
+        "text": "数据中心",
+        "iconPath": "assets/tabbar/shuju.png",
+        "selectedIconPath": "assets/tabbar/shuju_blue.png"
+      },
+      {
+        "pagePath": "pages/shangjia/shangjia",
+        "text": "选品上架",
+        "iconPath": "assets/tabbar/shangjia.png",
+        "selectedIconPath": "assets/tabbar/shangjia_blue.png"
+      },
+      {
+        "pagePath": "pages/dianpu/dianpu",
+        "text": "我的店铺",
+        "iconPath": "assets/tabbar/dianpu.png",
+        "selectedIconPath": "assets/tabbar/dianpu_blue.png"
+      }
+    ]
+  }
+}

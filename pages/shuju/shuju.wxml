@@ -1,0 +1,53 @@
+<view>
+<!-- 今日预估收益 -->
+  <view class="curday">
+    <view class="daynumber">预估收益￥<text>766.46</text></view>
+    <block class='view_ul'>
+      <view class='view_li'>
+        <text>邀请奖励</text>
+        <text>
+        ￥200.00
+        </text>
+      </view>
+       <view class='view_li'>
+        <text>佣金</text>
+        <text>
+        ￥283.03
+        </text>
+      </view>
+       <view class='view_li'>
+        <text>提成</text>
+        <text>
+        ￥260.80
+        </text>
+      </view>
+    </block>
+  </view>
+  <!-- 本月/历史 -->
+  <view class='lishi'>
+    <view class='lishi_li'>
+      <text>本月预估收益</text>
+      <view class='li_right'>
+        ￥<text class='sumnumber'>898.96</text>
+        <text class='iconfont icon-jiantou r_jiantou'></text>
+      </view>
+    </view>
+    <view class='lishi_li'>
+      <text>历史收益</text>
+      <view class='li_right'>
+        ￥<text class='sumnumber'>89675.96</text>
+        <text class='iconfont icon-jiantou r_jiantou'></text>
+      </view>
+    </view>
+  </view>
+  <!-- 邀请记录 -->
+  <view class='yaoqing'>
+  <view class='yaoqing_li'>
+      <text>邀请记录</text>
+      <view class='li_right'>
+        <text class='iconfont icon-jiantou_r r_jiantou'></text>
+      </view>
+    </view>
+  </view>
+
+</view>
