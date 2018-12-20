@@ -1,0 +1,80 @@
+/* view/shezhi/shezhi.wxss */
+page{
+  background-color: #eee;
+}
+.warp_box{
+  width: 96%;
+  margin: 20rpx 2% 0;
+  padding: 20rpx;
+  box-sizing: border-box;
+  border-radius: 10rpx;
+  background-color: #fff;
+}
+.head_photo , .head_dianpu{
+  height: 120rpx;
+}
+.head_name , .dianpu_name{
+  display: inline-block;
+  line-height: 120rpx;
+  font-size: 28rpx;
+  color: #666;
+}
+.head_img{
+  float: right;
+  width: 110rpx;
+  height: 110rpx;
+  border-radius:50%; 
+  overflow: hidden;
+  border: 3rpx solid #eee;
+}
+.head_img image{
+  width: 100%;
+  height: 100%;
+  border-radius:50%; 
+}
+.name_info{
+  width: 300rpx;
+  height: 120rpx;
+  padding-right: 10rpx;
+  line-height: 120rpx;
+  font-size: 30rpx;
+  color: #333;
+  float: right;
+  text-align: right;
+}
+.confirm{
+  width: 94%;
+  margin: 400rpx 3% 0;
+  background-color: #039ddd;
+  color: #fff;
+  font-size: 34rpx;
+}
+/* 遮罩层 */
+.float_box{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4)
+}
+.view_ul{
+  width: 100%;
+  position: absolute;
+  border-radius: 10rpx 10rpx 0 0;
+  background-color: #fff;
+  bottom: 0;
+}
+.view_li{
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 38rpx;
+  /* font-weight: 700; */
+}
+.clear{
+  margin-top: 20rpx;
+  border-top:4rpx solid #ccc;
+}

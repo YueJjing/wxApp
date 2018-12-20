@@ -1,0 +1,70 @@
+<!--pages/dianpu/dianpu.wxml-->
+<!-- 头部标题 -->
+<view class='top'>
+  <view class='top_left'>
+  <image src="../../assets/images/touxiang.png"></image>
+  <text>小可爱的店</text>
+  </view>
+  <navigator class='top_right' url='../shezhi/shezhi'>
+    编辑
+  </navigator>
+</view>
+
+<!-- 收益图表 -->
+<!-- <view class='echart_box'>
+  <ec-canvas></ec-canvas> 
+</view> -->
+
+
+<!-- 今日爆款 -->
+<view class='warp_box dayhot'>
+<!-- title -->
+  <view class='title'>
+    今日爆款
+    <text class='iconfont icon-bianji icon'></text>
+    <text class='iconfont icon-shangla  r_jiantou'></text>
+  </view>
+  <!-- 内容 -->
+  <view class='content' data-id='hot'>
+    <navigator class='content_data' wx:for='{{hotlist}}' wx:key='{{item.aid}}'>
+      <!-- <image src='../../assets/images/sj_banner.jpg'></image> -->
+      <image src='../../assets/images/sj_banner.jpg'></image>
+      <view class='data_name'>
+        {{item.title}}
+      </view>
+      <view>
+      <text class='gain'>赚￥<text>{{item.aid}}</text></text><text class='price'>￥29.9</text>
+      </view>
+    </navigator>
+    <!-- <navigator class='content_data'>
+      <image src='../../assets/images/sj_banner.jpg'></image>
+      <view class='data_name'>
+        开启你的好心情就像蜂蜜加柠檬酸酸甜甜
+      </view>
+      <view>
+      <text class='gain'>赚￥<text>2.98</text></text><text class='price'>￥29.9</text>
+      </view>
+    </navigator>
+    <navigator class='content_data'>
+      <image src='../../assets/images/sj_banner.jpg'></image>
+      <view class='data_name'>
+        开启你的好心情就像蜂蜜加柠檬酸酸甜甜
+      </view>
+      <view>
+      <text class='gain'>赚￥<text>2.98</text></text><text class='price'>￥29.9</text>
+      </view>
+    </navigator>
+    <navigator class='content_data'>
+      <image src='../../assets/images/sj_banner.jpg'></image>
+      <view class='data_name'>
+        开启你的好心情就像蜂蜜加柠檬酸酸甜甜
+      </view>
+      <view>
+      <text class='gain'>赚￥<text>2.98</text></text><text class='price'>￥29.9</text>
+      </view>
+    </navigator> -->
+  </view>
+  <view class='loader' bindtap='loaderMore'>
+    加载更多<text class='iconfont icon-expanding'></text>
+  </view>
+</view>
