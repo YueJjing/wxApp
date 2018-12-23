@@ -1,9 +1,9 @@
 {
   "pages": [
-    "view/dianpu/dianpu",
-    "view/index/index",
-    "view/shezhi/shezhi",
     "view/start/start",
+    "view/index/index",
+    "view/dianpu/dianpu",
+    "view/shezhi/shezhi",
     "view/shangjia/shangjia",
     "view/shuju/shuju",
     "view/chuangke/chuangke",
